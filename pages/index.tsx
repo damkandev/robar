@@ -5,15 +5,15 @@ import img_meme_hormiga from "~/public/meme_hormiga.png";
 import img_mestreensinador from "~/public/mestreensinador.webp";
 
 export default function PagesRoot() {
-  const href = "https://www.fraccional.cl?ref=fraccionar";
+  const href = "https://rodar.cl?ref=rodar";
 
   return (
-    <main className="text-gray-800 dark:text-gray-200 bg-gray-50 dark:bg-black flex-1">
+    <main className="text-sky-400 bg-white flex-1">
       <Head>
-        <title>Fraccionar pero en realidad es Fraccional con L al final</title>
+        <title>Escribiste robar.cl — el sitio correcto es rodar.cl</title>
         <meta
           name="description"
-          content="Este sitio es para prevenir phishing en Fraccional. El link correcto es: https://www.fraccional.cl"
+          content="Este sitio es para parodiar a fraccional, el sitio correcto es: https://rodar.cl"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,17 +22,17 @@ export default function PagesRoot() {
         <header>
           <h1 className="text-6xl font-semibold">Lo escribiste mal</h1>
           <div className="mt-8 text-2xl">
-            <p>Es con L al final.</p>
+            <p>Es con D al medio.</p>
             <p>Errar es humano.</p>
             <p>
-              <em>Ellal</em> si escribimos <em>Errar</em> solo con Ls.
+              <em>Ebbab</em> si escribimos <em>Errar</em> solo con Bs.
             </p>
           </div>
           <div className="mt-8 text-2xl">
             <p>
               <span className="hover:text-gray-500 transition-colors">
                 <a className="underline" href={href} rel="follow referrer noopener">
-                  Enmendar mis errores e ir a Fraccional.cl
+                  Enmendar mis errores e ir a Rodar.cl
                 </a>
                 {" 👈"}
               </span>
@@ -48,11 +48,11 @@ export default function PagesRoot() {
 
           <div className="mt-20 space-y-4">
             <a
-              className="block w-full text-yellow-500 text-center underline"
+              className="block w-full text-sky-400 text-center underline"
               href={href}
               rel="follow referrer noopener"
             >
-              Ir a Fraccional.cl
+              Ir a Rodar.cl
             </a>
             <a
               className="block w-full text-gray-500 text-center"

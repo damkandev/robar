@@ -8,12 +8,12 @@ import { font } from "~/styles/font";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider
-      defaultTheme={"system"}
-      attribute="class"
-      themes={["system", "light", "dark"]}
-      storageKey={"fraccionar.theme"}
-    >
+      <ThemeProvider
+        defaultTheme={"system"}
+        attribute="class"
+        themes={["system", "light", "dark"]}
+        storageKey={"rodar.theme"}
+      >
       <Wrap>
         <Component {...pageProps} />
       </Wrap>
